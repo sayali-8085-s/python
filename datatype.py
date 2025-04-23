@@ -23,5 +23,10 @@ x = 10 +2j
 y = 2 + 3j
 z = x+y
 print( z ,type(z))
-
-
+# orderd ( string ,tuple ,list)
+# 1)string
+s = 'python'
+print(s)
+print(type(s))
+print(id(s))
+# id give memory address

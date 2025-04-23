@@ -1,5 +1,5 @@
 #  it is uesd to find out ordered(string, list ,tuple)collection of element position
-s="python"
+s ="python"
 print(s.index('o'))
 # print(collection.index('element',start,end))
 print(s.index('y',0,2))
