@@ -1,0 +1,7 @@
+s = "this is python"
+# s.title()
+# print(s)
+
+# s = "this is python"
+# s.swapcase()
+# print(s)

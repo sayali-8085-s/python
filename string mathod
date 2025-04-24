@@ -1,0 +1,76 @@
+s = "this is python"
+s.lower()
+print(s)
+
+s = "this is python"
+print(s.upper())
+
+s = "this is python"
+print( s.title())
+
+# lowe to upper and vice versa
+s = "this is python"
+print(s.swapcase())
+
+s = "this is python"
+print(s.capitalize())
+
+s = "this is python"
+print(s.center(100))
+
+#  index (find location)
+s = "this is python"
+print(s.index('is'))
+
+s = "this is python"
+print(s.index('p'))
+
+s = "this is python"
+print(s.index('python'))
+
+# s = "this is python"
+# print(s.index('z'))
+
+s = "this is python"
+print(s.index('is', 5))
+
+# s = "this is python"
+# print(s.index('is', 6))
+
+
+
+# find (if not in string give - 1)
+s = "this is python"
+print(s.find('z'))
+
+s = "this is python"
+print(s.find('is'))
+
+# count (frequency / repeat element)
+s = "this is python"
+print(s.count('z'))
+
+s = "this is python"
+print(s.count('i'))
+
+# * join  (syntax - seperateor.join([]))      
+
+s1 = "this is python"
+s2 = "class"
+print(' '.join([s1 ,s2]))
+
+s1 = "this is python"
+s2 = "class"
+print(' '.join({s1 ,s2}))
+
+s1 = "this is python"
+s2 = "class"
+print( type(' '.join({s1 ,s2})))
+
+
+# split ( syntax -string.split('seperator',how many time split) )
+s1 = "this is python"
+print(s.split('i'))
+
+s1 = "this is python"
+print(s.split('i',1))
