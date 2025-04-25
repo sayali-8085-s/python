@@ -6,6 +6,8 @@ print(type(x))
 x=eval(input("enter a value = "))
 print(x)
 print(type(x))
-id
+
+
+# id - adderss
 x="hii"
 print(id(x))

@@ -73,4 +73,4 @@ s1 = "this is python"
 print(s.split('i'))
 
 s1 = "this is python"
-print(s.split('i',1))
+print(s.split('z',1))
