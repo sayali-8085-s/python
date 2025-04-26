@@ -1,2 +1,3 @@
-l = [ 2, 3,"hii" ,"python"]
-# print(sum(l))
+l = [ 1 ,3 ,4,'hii','python']
+# l.copy(2)
+# print(l)
