@@ -78,8 +78,10 @@ l1 = l.clear()
 print(l)
 print(id(l),id(l1))
 
-del l
-print(l)
+# it is used to free memory address of list
+
+# del l
+# print(l)
 
 # 8) reverse() - 
 
