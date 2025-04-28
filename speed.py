@@ -1,4 +1,4 @@
 import sys
-x = 10 
+x = ( 10 ,20)
 print(sys.getsizeof(x))
-# list speed is 
+# we can get size
