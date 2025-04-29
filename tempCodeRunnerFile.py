@@ -1,2 +1,1 @@
- = (2,3, 4,'python')
-# print(sum(t))
+new = d.get("name")
