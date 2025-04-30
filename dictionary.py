@@ -9,8 +9,8 @@ print(id(d))
 
 
 # FUNCTION
-# on the basis key ascii value calculate max min not sum  , for sum interger reqired ,key value sholud be integer or number then we can find sum
-# and if key value is number or string then error in sum and min ,max
+# on the basis key ascii value calculate max min not sum  , for sum interger reqired ,key value sholud be integer homogenious or number then we can find sum
+# and if key  is number and string then error in sum and min ,max
 d = {'name':21,'age':21}
 print (max(d))
 

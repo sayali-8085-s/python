@@ -30,3 +30,11 @@ print(s)
 print(type(s))
 print(id(s))
 # id give memory address
+
+# maped - dictionary
+
+
+# unorderd - set ,frozenset
+
+
+# boolean
