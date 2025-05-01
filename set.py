@@ -106,4 +106,61 @@ s ={ 1,2,3,4,5,5,6,'hii','python','class'}
 s.clear()
 print(s)
 
+#8) union -
+s1 ={1,2,3,4 ,'hii'}
+s2 ={ 5,6,7,8}
+print(s1.union(s2))
 
+
+# 9) intersecton
+s1 ={1,2,3,4}
+s2 ={ 4,5,6,7,8}
+s3 = s1.intersection(s2)
+print(s3)
+
+# 10) difference 
+s1 ={1,2,3,4}
+s2 ={ 4,5,6,7,8}
+print(s1.difference(s2))
+
+
+# 11)  symmetric diffence - opposite of intersection
+s1 ={1,2,3,4}
+s2 ={4, 5,6,7,8}
+print(s1.symmetric_difference(s2))
+
+# 12)intersection-update - change exixting 
+s1 ={1,2,3,4,8}
+s2 ={4, 5,6,7,8}
+s1.intersection_update(s2)
+print(s1)
+
+
+s1 ={1,2,3,4,8}
+s2 ={ 5,6,7,8}
+s1.symmetric_difference_update(s2)
+print(s1)
+
+
+s1 ={1,2,3,4}
+s2 ={4, 5,6,7,8}
+s1.difference_update(s2)
+print(s1)
+
+# is disjoint - no common element give true
+s1 ={1,2,3,4}
+s2 ={4, 5,6,7,8}
+print(s1.isdisjoint(s2))
+
+
+# issubset
+s1 ={1,2,3,4}
+s2 ={ 5,6,7,8}
+print(s1.issubset(s2))
+
+# is superset
+# imp
+s1 ={1,2,3,4}
+s2 ={1,2,3,4}
+print(s1.issuperset(s2))
+print(s1.issubset(s2))
