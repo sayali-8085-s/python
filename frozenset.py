@@ -78,3 +78,6 @@ s2=(1,2,34,)
 fs1 = frozenset(s1)
 fs2 = frozenset(s2)
 print(fs1.issuperset(fs2))
+
+
+# empty declaration of data type

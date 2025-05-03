@@ -1,4 +1,7 @@
-s = "this is python"
+
+
+
+s= "this is python"
 s.lower()
 print(s)
 

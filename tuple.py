@@ -46,7 +46,8 @@ t = ('hii','python')
 print(t.count('hello'))
 
 
-# less space ( get size of) and  give fast response and high performnce as compared to list
+# less space ( get size of) and  give fast response and high performnce as compared to list - it is fast as compare to list
+# it secure no chnage in structure due to immutable
 
 
 import sys
