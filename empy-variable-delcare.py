@@ -90,11 +90,11 @@ print(x)
 d = {'hii':'say' ,'age':27}
 
 
-# string give all value while other give key only
+#  string give all value while other give key only
 x = str(d)
 print(x)
 
-x = frozenset(d)
+x =  frozenset(d)
 print(x)
 
 
