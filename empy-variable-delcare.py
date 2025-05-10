@@ -87,7 +87,7 @@ print(x)
 # x= dict(n)
 # print(x)
 
-d = {'hii':'say' ,'age':27}
+d =   {'hii':'say' ,'age':27}
 
 
 #   string give all value while other give key only
