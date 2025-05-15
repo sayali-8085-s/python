@@ -1,4 +1,4 @@
-while True:
+while  True:
     print('1. Addition \n2. subtraction \n3. divide \n4. off')
 
     n = int(input("Enter any option: "))
