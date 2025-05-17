@@ -57,3 +57,33 @@ def fibo(* args):
 p=(3,4,56,)
 x= fibo(p) 
 print(x)   
+
+#keyword argument -  it hold data i dictionry form(** kwargs)
+def new(**n):
+    print(n)
+    print(type(n))
+new(name='neeraj',age=21)    
+    
+
+
+
+def new(**n):
+    for k,v in n.items():
+        print(f'my key is {k} and value is {v}')
+    
+new(name='neeraj',age=21)    
+    
+
+
+
+
+def new(**n):
+    for k,v in n.values():
+        print(f'my key is {k} and value is {v}')
+    
+new(name='neeraj',age=21)    
+        
+
+
+# 
+
