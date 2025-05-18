@@ -67,7 +67,7 @@ new(name='neeraj',age=21)
 
 
 
-def new(**n):
+def  new(**n):
     for k,v in n.items():
         print(f'my key is {k} and value is {v}')
     
@@ -77,7 +77,7 @@ new(name='neeraj',age=21)
 
 
 
-def new(**n):
+def  new(**n):
     for k,v in n.values():
         print(f'my key is {k} and value is {v}')
     
