@@ -37,15 +37,104 @@ print(list(x))
 
 
 
-#filter
+#filter - filter(fun-name ,collection)
 
 l =[1,23,4]
 
-def add5(n):
-    return n%2==0
-x=filter(add5,l)
+def even(n):
+    if n%2==0:
+
+       return n
+x=filter(even,l)
 print(x)
 print(list(x))
 
+
+
+l =[1,23,4]
+
+def grtr(n):
+    if n>5:
+
+       return n
+x=filter(grtr,l)
+print(list(x))
+
+
+# another way or conventional method
+l =[2,4,5,6]
+l1=[]
+for i in l:
+    if i>=5:
+        l1.append(i)
+print(l1)        
+
+
+
+# reduce() - 
+
+from functools import reduce
+l =[1,8,5,6,7]
+
+def maxv(x,y):
+    if x>y:
+       return x
+    else:
+       return y
+
+       
+x=reduce(maxv,l)
+print(x)
+
+
+
+from functools import reduce
+l =[1,8,5,6,7]
+
+def minv(x,y):
+    if x<y:
+       return x
+    else:
+       return y
+
+       
+x=reduce(minv,l)
+print(x)
+
+
+from functools import reduce
+l =[1,8,5,6,7]
+
+def sum(x,y):
+       return x+y
+    
+       
+       
+x=reduce(sum,l)
+print(x)
+
+
+# quet
+
+
+from functools import reduce
+l =[1,23,4]
+
+def add5(n):
+    return n+1
+x=map(add5,l)
+
+p=tuple(x)
+  
+def add(p,m):
+    return p+m
+
+y =reduce(add,p)
+print(y)
+
+
+# or 
+
+x = reduce()
 
 
