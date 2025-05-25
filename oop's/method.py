@@ -20,7 +20,7 @@ class student:
         cls.gread=update
 
 
-obj = student('say')
+obj =  student('say')
 obj.show_details()
 
 student.update_grade('12th')
@@ -29,7 +29,7 @@ obj2.show_details()
     
 
 # add new 
-class student:
+class   student:
     school ='shs'
     gread ='11th'
     def __init__(self,name):
