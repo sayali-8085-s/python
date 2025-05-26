@@ -1,4 +1,5 @@
 # bule print or desgin of real world entity or object
+# camel caseuse in class name
 
 class First:
     pass

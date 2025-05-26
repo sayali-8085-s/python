@@ -1,1 +1,1 @@
-print(Studen.school)
+ # super().home() # take from parent home
