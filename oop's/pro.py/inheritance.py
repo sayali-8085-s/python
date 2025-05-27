@@ -135,4 +135,4 @@ obj.first()
 
 
 
-# mro -method resolution order to check postion example like e class
+# mro -method resolution order to check postion example like e class check d,c
