@@ -12,7 +12,7 @@ class student:
 obj = student()        #from second we can access bt not frist access never
 
 
-# in ascending order in conven
+# in ascending order in convent method
 l=[10,2,4,6,8,20]
 
 for i in range(len(l)):
@@ -33,11 +33,18 @@ for i in range(len(l)):
 
 print(l) 
 
+# firstt even print then odd print number
+
+l = [1,34,5,67,8]
+l1=[]
+for i in l:
+    if i%2==0:
+        l1.append(i)
+for i in l:
+    if i%2!=0:
+        l1.append(i)
+print(l1)   
 
 
 
-l=[10,2,4,6,8,20]
-
-
-for i in range(len(l)):
-    if l[i]
+# farcotr or perfet number
