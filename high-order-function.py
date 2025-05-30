@@ -135,6 +135,47 @@ print(y)
 
 # or 
 
-x = reduce()
+# x = reduce()
 
 
+
+
+# 4)decorator -spcl function whicch change internal behviour of function without changing the code
+# it take function as parameter and return  another function
+# it is represented by @
+
+# python tutor -imp for debugging
+
+
+#internal working
+# def outer_fun(f):
+#     def inner_fun(p,q):
+#         p=p+5
+#         q =q+5
+#         d =f(p,q)
+#         return d
+#     return inner_fun
+
+# def add(a,b):
+#     return a+b
+
+# x = outer_fun(add)
+# print(x)
+# z=x(10,20)
+# print(z)
+
+
+#main to do
+def outer_fun(f):
+    def inner_fun(p,q):
+        p=p+5  #modification
+        q =q+5
+        d =f(p,q)
+        return d
+    return inner_fun
+@outer_fun    #decorator
+def add(a,b):
+    return a+b
+
+x = add(10,30)
+print(x)

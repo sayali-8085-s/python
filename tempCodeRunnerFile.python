@@ -3,5 +3,5 @@ s = "this is python"
 # print(s)
 
 # s = "this is python"
-# s.swapcase()
+s.swapcase()
 # print(s)
