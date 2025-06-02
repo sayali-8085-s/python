@@ -10,4 +10,3 @@ class student:
         print("hello from class")
 
 
-x 
