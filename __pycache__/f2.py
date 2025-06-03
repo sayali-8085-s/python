@@ -1,4 +1,4 @@
-f =open('n2.txt','x')
+f =open('n2.txt','a')
 # from x mode new blank file
 print(f.name)
 print(f.mode)
