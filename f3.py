@@ -1,3 +1,4 @@
+ 
 f =open('n3.py','a')
 
 f.write('''
