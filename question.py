@@ -57,12 +57,20 @@
 # for i in range(1,n+1):
 #    print(i)
 
-n = int(input("enter."))
-for i in range(2,n+1,2):
-   print(i)
+# n = int(input("enter."))
+# for i in range(2,n+1,2):
+#    print(i)
 
 
-n = int(input("enter."))
-for i in range(1,n+1,2):
-   print(i)
+# n = int(input("enter."))
+# for i in range(1,n+1,2):
+#    print(i)
 
+
+n = int (input("enter num:"))
+for i in range (1,n+1):
+    ch = 'A'
+    for j in range(1,i+1):
+        print(ch, end='')
+        ch = chr(ord(ch)+1)
+    print()    

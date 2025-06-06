@@ -12,7 +12,7 @@ y = 2
 print(x is y)
 # it check the address (identity operator)
 
-# float operator
+#  float operator
 x = 10.5 
 y = 2.5
 z = x/y
