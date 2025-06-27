@@ -42,7 +42,7 @@
 #        print(i)
 
 
-n      =int(input("enter a no"))
+n       =int(input("enter a no"))
 for i in range(1,n+1,2):
     if(n%2!=0):
       if i<n:
