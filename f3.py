@@ -1,5 +1,5 @@
  
-f =open('n3.py','a')
+f  =open('n3.py','a')
 
 f.write('''
  n =int(input("enter""))
